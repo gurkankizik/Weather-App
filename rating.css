@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppings", sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -40,7 +38,7 @@ body {
     color: aliceblue;
     font-size: 35px;
     cursor: pointer;
-    transition: cpşpr 0.2s ease;
+    transition: 0.2s ease;
 }
 
 .stars i.active {
