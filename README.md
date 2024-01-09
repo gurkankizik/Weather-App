@@ -1,4 +1,7 @@
 Dogus University 23-24
-COME 373 Lab Homework
 Gürkan Kızık
 202103001099
+
+COME 373 Lab Homework 
+Weather App 
+HTML CSS JS
