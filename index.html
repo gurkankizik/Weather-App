@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="assets/weather-favicon.png">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <script src="slider.js" defer></script>
 </head>
 
 <body>
@@ -22,25 +24,36 @@
       </div>
     </div>
     <a href="rating.html">Rate My Website</a>
-  </div>
-
-  <div class="app-wrap">
     <header>
-      <input type="text" autocomplete="off" class="search-box" placeholder="Enter city name" />
+      <input type="text" autocomplete="off" class="search-box" placeholder="Enter location" />
     </header>
-    <main>
-      <section class="location">
-        <div class="city"></div>
-        <div class="date"></div>
-      </section>
-      <div class="current">
-        <div class="temp"><span></span></div>
-        <div class="weather"></div>
-      </div>
-    </main>
   </div>
-  <script src="index.js"></script>
 
+  <section class="image-slider">
+    <div class="app-wrap">
+      <main>
+        <section class="location">
+          <div class="city"></div>
+          <div class="date"></div>
+        </section>
+        <div class="current">
+          <div class="temp"><span></span></div>
+          <div class="weather"></div>
+        </div>
+      </main>
+    </div>
+    <div class="arrow-left">
+      <i class="fas fa-arrow-left"></i>
+    </div>
+    <div class="arrow-right">
+      <i class="fas fa-arrow-right"></i>
+    </div>
+    <div class="caption">
+      <h1>İstanbul, Karaköy</h1>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
 </body>
 
 </html>
