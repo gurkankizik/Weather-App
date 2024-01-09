@@ -1,4 +1,4 @@
-Dogus University 23-24
+Dogus University 2023-24
 Gürkan Kızık
 202103001099
 
