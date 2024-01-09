@@ -60,12 +60,12 @@ main {
 }
 
 .location .date {
-  color: #black;
+  color: black;
   font-size: 16px;
 }
 
 .current .temp {
-  color: #black;
+  color: black;
   font-size: 102px;
   font-weight: 900;
   margin: 30px 0px;
@@ -76,7 +76,7 @@ main {
 }
 
 .current .weather {
-  color: #black;
+  color: black;
   font-size: 32px;
   font-weight: 700;
   font-style: italic;
@@ -118,7 +118,7 @@ body {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(17, 112, 255);
+    background-color: rgb(0, 102, 255);
   }
   
   .dropdown-content {
