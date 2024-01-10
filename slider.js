@@ -1,19 +1,10 @@
-const slider =
-    document.querySelector('.image-slider');
-const arrLeft =
-    document.querySelector('.arrow-left');
-const arrRight =
-    document.querySelector('.arrow-right');
-const heading =
-    document.querySelector('.caption h1');
+const slider = document.querySelector('.image-slider');
+const arrLeft = document.querySelector('.arrow-left');
+const arrRight = document.querySelector('.arrow-right');
+const heading = document.querySelector('.caption h1');
 
-const assets = [
-    "url(assets/istanbul.jpg)", "url(assets/ankara.jpg)", "url(assets/bursa.jpg)"
-];
-
-const headings = [
-    "İstanbul, Karaköy", "Ankara, Çankaya", "Bursa, Osmangazi"
-];
+const assets = ["url(assets/istanbul.jpg)", "url(assets/ankara.jpg)", "url(assets/bursa.jpg)"];
+const headings = ["İstanbul, Karaköy", "Ankara, Çankaya", "Bursa, Osmangazi"];
 
 let id = 0;
 
@@ -33,6 +24,7 @@ arrLeft.addEventListener('click', () => {
     }
     slide(id);
 });
+
 arrRight.addEventListener('click', () => {
     id++;
     if (id > assets.length - 1) {
