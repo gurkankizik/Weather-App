@@ -6,6 +6,6 @@ COME 373 Lab Homework
 Weather App 
 HTML CSS JS
 
-![Screenshot](assets/istss.jpeg)
-![Screenshot](assets/ankss.jpeg)
-![Screenshot](assets/burss.jpeg)
+![Screenshot](assets/screenshot1.jpeg.jpeg)
+![Screenshot](assets/screenshot2.jpeg.jpeg)
+![Screenshot](assets/screenshot3.jpeg.jpeg)
